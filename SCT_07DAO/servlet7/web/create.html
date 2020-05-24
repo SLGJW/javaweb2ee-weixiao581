@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加学生信息</title>
+<style>
+    p{
+        color: blue;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    div{
+        width: 300px;
+        background-color: pink;
+        margin:0  auto;
+    }
+    .inp2{
+        width: 150px;
+    }
+</style>
+</head>
+<body>
+<div style="text-align: center;">
+    <p>学生信息录入</p>
+    <form action="/stu38/create.jsp" method="post">
+        学号：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="inp2" type="text" name="sid" /><br /><br />
+        姓名：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="inp2" type="text" name="sname" /><br /><br />
+        出生日期：<input class="inp2" type="date" name="sbirthday"/><br /><br />
+        性别：男：<input type="radio" name="ssex" value="男" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        女：<input type="radio" name="ssex" value="女" />&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+        <input type="reset" value="重置" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="提交" />
+    </form>
+</div>
+</body>
+</html>

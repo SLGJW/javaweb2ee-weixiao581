@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询学生信息</title>
+</head>
+<script>
+    function findBySid(){
+        var sid = prompt("请输入学号：");
+        var a = document.getElementById("inp1");
+        a.value=sid;
+        var from = document.getElementById("from1");
+        from.submit();
+    }
+    function findBySname(){
+        var sid = prompt("请输入姓名：");
+        var a = document.getElementById("inp2");
+        a.value=sid;
+        var from = document.getElementById("from2");
+        from.submit();
+    }
+    function findBySbirthday(){
+        var sid = prompt("请输入生日：");
+        var a = document.getElementById("inp3");
+        a.value=sid;
+        var from = document.getElementById("from3");
+        from.submit();
+    }
+    function findBySsex(){
+        var sid = prompt("请输入性别：");
+        var a = document.getElementById("inp4");
+        a.value=sid;
+        var from = document.getElementById("from4");
+        from.submit();
+    }
+</script>
+<body>
+<form id="from1" action="select.jsp" method="get">
+    <input id="inp1" type="hidden" name="sid" value="">
+    <input type="button" value="根据学号查询" onclick="findBySid()">
+</form>
+<form id="from2" action="select.jsp" method="get">
+    <input id="inp2" type="hidden" name="sname" value="">
+    <input type="button" value="根据姓名查询" onclick="findBySname()">
+</form>
+<form id="from3" action="select.jsp" method="get">
+    <input id="inp3" type="hidden" name="sbirthday" value="">
+    <input type="button" value="根据生日查询" onclick="findBySbirthday()">
+</form>
+<form id="from4" action="select.jsp" method="get">
+    <input id="inp4" type="hidden" name="ssex" value="">
+    <input type="button" value="根据性别查询" onclick="findBySsex()">
+</form>
+</body>
+</html>
