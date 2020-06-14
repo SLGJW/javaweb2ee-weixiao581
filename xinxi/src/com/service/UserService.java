@@ -1,6 +1,6 @@
-package com.ujiuye.service;
+package com.service;
 
-import com.ujiuye.dao.UserDao;
+import com.dao.UserDao;
 
 public class UserService {
 	private UserDao userDao = new UserDao();

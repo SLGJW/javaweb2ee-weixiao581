@@ -1,4 +1,4 @@
-package com.ujiuye.servlet;
+package com.servlet;
 
 import java.io.IOException;
 import java.util.Date;
@@ -10,11 +10,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ujiuye.bean.DimBean;
-import com.ujiuye.bean.PageTool;
-import com.ujiuye.bean.Student;
-import com.ujiuye.service.StudentService;
-import com.ujiuye.utils.MyUtils;
+import com.bean.DimBean;
+import com.bean.PageTool;
+import com.bean.Student;
+import com.service.StudentService;
+import com.utils.MyUtils;
 
 @WebServlet("/studentServlet")
 public class StudentServlet extends BaseServlet {

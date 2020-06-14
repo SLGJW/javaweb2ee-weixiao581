@@ -1,4 +1,4 @@
-package com.ujiuye.bean;
+package com.bean;
 
 /**
  * 分页工具类

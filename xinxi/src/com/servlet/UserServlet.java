@@ -1,4 +1,4 @@
-package com.ujiuye.servlet;
+package com.servlet;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.ujiuye.bean.User;
-import com.ujiuye.service.UserService;
+import com.bean.User;
+import com.service.UserService;
 
 /**
  * 一张表对应着一个servlet

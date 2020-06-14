@@ -1,11 +1,11 @@
-package com.ujiuye.service;
+package com.service;
 
 import java.util.List;
 
-import com.ujiuye.bean.DimBean;
-import com.ujiuye.bean.PageTool;
-import com.ujiuye.bean.Student;
-import com.ujiuye.dao.StudentDao;
+import com.bean.DimBean;
+import com.bean.PageTool;
+import com.bean.Student;
+import com.dao.StudentDao;
 
 public class StudentService {
 	private StudentDao sd = new StudentDao();

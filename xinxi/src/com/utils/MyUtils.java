@@ -1,4 +1,4 @@
-package com.ujiuye.utils;
+package com.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

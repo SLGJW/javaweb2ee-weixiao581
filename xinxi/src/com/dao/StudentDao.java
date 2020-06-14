@@ -1,4 +1,4 @@
-package com.ujiuye.dao;
+package com.dao;
 
 import java.sql.SQLException;
 import java.util.Date;
@@ -8,10 +8,10 @@ import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
-import com.ujiuye.bean.DimBean;
-import com.ujiuye.bean.PageTool;
-import com.ujiuye.bean.Student;
-import com.ujiuye.utils.MyUtils;
+import com.bean.DimBean;
+import com.bean.PageTool;
+import com.bean.Student;
+import com.utils.MyUtils;
 
 public class StudentDao {
 

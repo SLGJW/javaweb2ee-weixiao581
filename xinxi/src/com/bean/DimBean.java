@@ -1,4 +1,4 @@
-package com.ujiuye.bean;
+package com.bean;
 
 public class DimBean {
 

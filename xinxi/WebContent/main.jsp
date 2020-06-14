@@ -1,5 +1,5 @@
-<%@page import="com.ujiuye.bean.User"%>
-<%@page import="com.ujiuye.bean.Student"%>
+<%@page import="com.bean.User"%>
+<%@page import="com.bean.Student"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

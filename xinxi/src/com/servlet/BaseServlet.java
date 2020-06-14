@@ -1,4 +1,4 @@
-package com.ujiuye.servlet;
+package com.servlet;
 
 import java.io.IOException;
 import java.lang.reflect.Method;

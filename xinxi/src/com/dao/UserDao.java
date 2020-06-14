@@ -1,10 +1,10 @@
-package com.ujiuye.dao;
+package com.dao;
 
 import java.sql.SQLException;
 
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
-import com.ujiuye.utils.MyUtils;
+import com.utils.MyUtils;
 
 public class UserDao {
 
