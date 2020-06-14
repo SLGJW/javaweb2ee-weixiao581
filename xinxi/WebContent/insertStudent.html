@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="studentServlet">
+		<!-- 通过隐藏框 携带mark -->
+		<input type="hidden" name="mark" value="insertStudent">
+		姓名:<input type="text" name="sname"><br>
+		年龄:<input type="text" name="age"><br>
+		性别:<input type="radio" name="sex" value="1">男
+		<input type="radio" name="sex" value="0">女<br>
+		班级:<input type="text" name="sclass"><br>
+		爱好:<input type="checkbox" name="shobby" value="唱">唱
+		<input type="checkbox" name="shobby" value="跳">跳
+		<input type="checkbox" name="shobby" value="rap">rap
+		<input type="checkbox" name="shobby" value="打篮球">打篮球<br>
+		学历:<select name="edu">
+			<option value="初中">初中</option>
+			<option value="高中">高中</option>
+			<option value="专科">专科</option>
+			<option value="本科">本科</option>
+		</select><br>
+		<input type="submit" value="添加"> 
+	</form>
+</body>
+</html>
